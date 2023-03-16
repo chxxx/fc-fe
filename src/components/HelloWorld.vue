@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {fetchTest} from '@/api/test'
+import {fetchTest} from '/@/api/test'
 
 fetchTest()
 defineProps<{
